@@ -1,22 +1,24 @@
-nav.top-nav{
+nav.top-nav {
     background-color: orange;
     position: fixed;
-    top:0px;
+    top: 0px;
     right: 0px;
     left: 0px;
     box-shadow: 0px 4px 4px blue;
 }
 
-nav [aria-current=page]{
+nav [aria-current=page] {
     background-color: #bbb;
     color: #000;
     border-bottom: .25em solid #444;
 }
-main{
+
+main {
     margin-top: 100px;
     margin-left: 2em;
 }
-nav.top-nav li{
+
+nav.top-nav li {
     display: inline-block;
     font-family: sans-serif;
     font-weight: bold;
@@ -24,47 +26,56 @@ nav.top-nav li{
     user-select: none;
 }
 
-nav.top-nav li:hover{
+nav.top-nav li:hover {
     text-decoration: underline;
 }
+
 /*when you see a ul in top-nav*/
-nav.top-nav ul{
-    list-style: none;/*remove bullet points*/
+nav.top-nav ul {
+    list-style: none;
+    /*remove bullet points*/
 }
 
-nav.top-nav .pulldown-menu{
+nav.top-nav .pulldown-menu {
     display: none;
-    position: absolute;/*makes it stop messing with the rest of the UI*/
+    position: absolute;
+    /*makes it stop messing with the rest of the UI*/
     border: 1px solid white;
     background-color: white;
 }
 
-nav.top-nav li:hover .pulldown-menu{/*For a list item on hover if it has pulldown menu class*/
+nav.top-nav li:hover .pulldown-menu {
+    /*For a list item on hover if it has pulldown menu class*/
     display: block;
 }
-nav.top-nav .pulldown-menu li{/*overwrite inline block from top-nav li*/
-    display:block;
+
+nav.top-nav .pulldown-menu li {
+    /*overwrite inline block from top-nav li*/
+    display: block;
 }
 
-.main{
-    font-family: Arial, Helvetica, sans-serif, Tahoma, sans-serif ;
+.main {
+    font-family: Arial, Helvetica, sans-serif, Tahoma, sans-serif;
     background-color: rgba(216, 238, 255, 0.679);
+    color: rgb(76, 57, 57);
 }
-.font{
-    font-family: Arial, Helvetica, sans-serif, Tahoma, sans-serif ;
- }
 
- .header-link li a{
-    color: navy;
- }
- .header-link li a:visited{
-    color: navy;
- }
+.font {
+    font-family: Arial, Helvetica, sans-serif, Tahoma, sans-serif;
+}
 
- .header-link li a:hover{
+.header-link li a {
+    color: navy;
+}
+
+.header-link li a:visited {
+    color: navy;
+}
+
+.header-link li a:hover {
     color: paleturquoise;
- }
+}
 
- .header-link li a:active{
+.header-link li a:active {
     color: red
- }
+}
