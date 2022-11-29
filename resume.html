@@ -9,15 +9,17 @@
 <body class="main">
     <nav role=navigation class="top-nav">
         <ul class="header-link">
-            <li tabindex=0><a href="index.html">Home</a></li>
+            <li nav tabindex=0><a aria-haspopup="true" href='index.html'
+                    aria-expanded="false">Home</a>
+                <ul class="pulldown-menu">
+                    <li><a href='index.html'>Truss</a></li>
+                    <li><a href='index.html'>InTune</a></li>
+                </ul>
+            </li>
             <li tabindex=1><a href="education.html">Education</a></li>
             <li nav aria-current="page" tabindex=2><a href='resume.html'>Resume</a></li>
             <li tabindex=3><a href="background.html">Background</a></li>
-            <li tabindex=4><a aria-haspopup="true" href='projects.html' aria-expanded="false">Projects</a>
-                <ul class="pulldown-menu">
-                    <li><a href='projects.html'>Truss</a></li>
-                    <li><a href='projects.html'>InTune</a></li>
-                </ul>
+            <li tabindex=4><a href='contact.html' aria-expanded="false">Contact</a>
             </li>
         </ul>
     </nav>
