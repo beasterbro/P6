@@ -105,7 +105,6 @@ nav.top-nav .pulldown-menu li {
     width: 100vw;
     max-width: 80%;
     height: auto;
-    border: 3px solid teal;
     padding: 15px;
     margin-bottom: 10px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
@@ -122,3 +121,10 @@ nav.top-nav .pulldown-menu li {
 .project-card .photo{
     height: 100%;
 }
+
+.project-card a, a:hover, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+   }
+  
+/*TODO: Add alt texts for images and finish truss page and maybe link to Git Repos*/
