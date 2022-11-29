@@ -104,10 +104,10 @@ nav.top-nav .pulldown-menu li {
 .project-card {
     width: 100vw;
     max-width: 80%;
-    height: 400px;
+    height: auto;
     border: 3px solid teal;
-    padding: 1px;
-    margin : 1px;
+    padding: 20px;
+    margin-bottom: 10px;
 
 }
 
