@@ -91,3 +91,10 @@ nav.top-nav .pulldown-menu li {
     width: 30%;
     height: 30%;
 }
+.contact {
+    display: flex;
+}
+.contact .photo{
+    height: 100%;
+    float: right;
+}
