@@ -9,17 +9,16 @@
 <body class="main">
     <nav role=navigation class="top-nav">
         <ul class="header-link">
-            <li nav tabindex=0><a aria-haspopup="true" href='index.html'
+            <li nav onkeyup="onKeyUp(event)" tabindex=0><a aria-haspopup="true" href='index.html'
                     aria-expanded="false">Home</a>
                 <ul class="pulldown-menu">
                     <li><a href='index.html'>Truss</a></li>
                     <li><a href='index.html'>InTune</a></li>
                 </ul>
             </li>
-            <li tabindex=1><a href="education.html">Education</a></li>
-            <li tabindex=2><a href='resume.html'>Resume</a></li>
-            <li tabindex=3><a href="background.html">Background</a></li>
-            <li tabindex=4><a href="contact.html">Contact</a></li>
+            <li onkeyup="onKeyUp(event)" tabindex=1><a href='resume.html'>Resume</a></li>
+            <li onkeyup="onKeyUp(event)" tabindex=2><a href="background.html">Background</a></li>
+            <li onkeyup="onKeyUp(event)" tabindex=3><a href="contact.html">Contact</a></li>
 
         </ul>
     </nav>
@@ -35,6 +34,8 @@
 
 
     </main>
+    <script src="script.js"></script>
+
 </body>
 <footer class="font">
 </footer>
