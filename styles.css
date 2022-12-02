@@ -3,6 +3,7 @@ nav.top-nav {
     position: fixed;
     top: 0px;
     right: 0px;
+    height: 61px;
     left: 0px;
     box-shadow: 0px 4px 4px #1E5095;
 }
@@ -48,6 +49,7 @@ nav.top-nav li:hover .pulldown-menu {
     /*For a list item on hover if it has pulldown menu class*/
     display: block;
 }
+
 nav.top-nav li:focus .pulldown-menu {
     /*For a list item on hover if it has pulldown menu class*/
     display: block;
@@ -73,7 +75,8 @@ nav.top-nav .pulldown-menu li:focus {
     font-family: Arial, Helvetica, sans-serif, Tahoma, sans-serif;
 }
 
-.header-link li a, a:visited {
+.header-link li a,
+a:visited {
     color: #26187C;
 }
 
@@ -87,22 +90,26 @@ nav.top-nav .pulldown-menu li:focus {
 
 .photo {
     max-width: 100%;
-    height: 90%; 
+    height: 90%;
 }
-.content-70{
+
+.content-70 {
     width: 70%;
     float: left;
 }
-.content-30{
+
+.content-30 {
     width: 30%;
     height: 30%;
     float: left;
 }
+
 .contact {
     display: flex;
     height: 43vw;
 }
-.contact .photo{
+
+.contact .photo {
     float: right;
     box-shadow: 0 5px 15px rgba(54, 38, 157, 0.8);
     max-height: 90%;
@@ -119,63 +126,85 @@ nav.top-nav .pulldown-menu li:focus {
     transition: box-shadow 0.3s ease-in-out;
 }
 
-.project-card:hover{
+.project-card:hover {
     box-shadow: 0 5px 15px rgba(54, 38, 157, 0.8);
 }
-.project-desc{
+
+.project-desc {
     height: 90px;
 }
 
-.project-card .photo{
+.project-card .photo {
     height: 100%;
     max-height: 590px;
     margin: auto;
 }
+
 .project-photo {
     display: flex;
 }
 
-.project-card a, a:hover, a:visited, a:active {
+.project-card a,
+a:hover,
+a:visited,
+a:active {
     color: inherit;
     text-decoration: none;
-   }
+}
 
-.truss .photo{
+.truss .photo {
     max-width: 60vw;
 }
 
-.truss-slide{
+.truss-slide {
     height: 25vw;
     width: 80vw;
     padding: 1vw;
 }
 
-.truss-slide img{
+.truss-slide img {
     float: left;
     margin: 15px;
     max-width: 59vw;
 }
 
-.truss-slide p{
-text-align: justify;
-padding: 5px;
-margin: 5px;
+.truss-slide p {
+    text-align: justify;
+    padding: 5px;
+    margin: 5px;
 }
 
-.contact-option{
+.contact-option {
     display: flex;
     align-items: center;
     height: 40px;
     margin-top: 20px;
 }
 
-.contact-option .info{
+.contact-option .info {
     padding-left: 10px;
 }
-  
-.contact-option a, a:hover, a:visited, a:active {
+
+.contact-option a,
+a:hover,
+a:visited,
+a:active {
     color: inherit;
 }
+
+.my-name {
+    height: 60px;
+    position: fixed;
+    top: -18px;
+    right: 5px;
+    display: inline-grid;
+}
+
+.my-name #name{
+    float: right;
+    /* width: 167px; */
+    text-align: end;}
+
 /* Palette color codes */
 /* Palette URL: http://paletton.com/#uid=70Q0u0krVsvha-um5u4tKmyzdhE */
 
