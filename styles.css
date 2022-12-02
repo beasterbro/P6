@@ -161,7 +161,21 @@ text-align: justify;
 padding: 5px;
 margin: 5px;
 }
+
+.contact-option{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.contact-option .info{
+    padding-left: 10px;
+}
   
+.contact-option a, a:hover, a:visited, a:active {
+    color: inherit;
+}
 /* Palette color codes */
 /* Palette URL: http://paletton.com/#uid=70Q0u0krVsvha-um5u4tKmyzdhE */
 
