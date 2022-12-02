@@ -166,7 +166,7 @@ a:active {
 
 .truss-slide img {
     float: left;
-    margin: 15px;
+    /* margin: 15px; */
     max-width: 59vw;
 }
 
