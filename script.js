@@ -3,6 +3,7 @@ const pages = ["index.html","resume.html","background.html","contact.html","trus
 function onKeyUp (e){
     index = e.srcElement.tabIndex
     eleType = e.target.nodeName
+    console.log(e)
     if (e.key === "Enter" && isValidTarget(e)) window.location.assign(pages[index])
 }
 

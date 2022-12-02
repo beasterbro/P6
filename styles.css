@@ -48,8 +48,17 @@ nav.top-nav li:hover .pulldown-menu {
     /*For a list item on hover if it has pulldown menu class*/
     display: block;
 }
+nav.top-nav li:focus .pulldown-menu {
+    /*For a list item on hover if it has pulldown menu class*/
+    display: block;
+}
 
 nav.top-nav .pulldown-menu li {
+    /*overwrite inline block from top-nav li*/
+    display: block;
+}
+
+nav.top-nav .pulldown-menu li:focus {
     /*overwrite inline block from top-nav li*/
     display: block;
 }
