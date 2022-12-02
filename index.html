@@ -12,8 +12,9 @@
             <li nav aria-current="page"  onkeyup="onKeyUp(event)" tabindex=0><a aria-haspopup="true" href='index.html'
                     aria-expanded="false">Home</a>
                 <ul tabindex=0 class="pulldown-menu">
-                    <li tabindex=0><a href='index.html' >Logan</a></li>
-                    <li tabindex=1><a href='truss.html' >Truss</a></li>
+                    <li tabindex=0><a href='index.html#logan' >Logan</a></li>
+                    <li tabindex=1><a href='index.html#truss' >Truss</a></li>
+                    <li tabindex=1><a href='index.html#intune' >InTune</a></li>
                 </ul>
             </li>
             <li nav onkeyup="onKeyUp(event)" tabindex=1><a href='resume.html'>Resume</a></li>
@@ -25,32 +26,32 @@
     <main>
         <div class="projects">
             <h1>Projects</h1>
-            <div class="project-card">
+            <div id="logan"class="project-card">
                 <div class="project-desc">
                     <h2>Logan</h2>
                     <p> A life planner made for students, by students</p>
                 </div>
-                <div>
+                <div class="project-photo">
                     <img class='photo' src="images/logan.gif" alt="A gif demonstrating all of the features of logan, including a schedule page, task page, assignment page, and more!"/>
                 </div>
             </div>
-            <div onkeyup="onKeyUp(event)" tabindex=4 class="project-card">
+            <div id="truss" onkeyup="onKeyUp(event)" tabindex=4 class="project-card">
                 <a href='truss.html'>
                     <div class="project-desc">
                         <h2>Truss</h2>
                         <p> A convinient way to track and update projects</p>
                     </div>
-                    <div>
+                    <div class="project-photo">
                         <img class='photo' src="images/truss1.png" alt="A photo of the landing page of the Truss webapp" />
                     </div>
                 </a>
             </div>
-            <div class="project-card">
+            <div id="intune" class="project-card">
                 <div class="project-desc">
-                    <h2>Intune</h2>
+                    <h2>InTune</h2>
                     <p> A quick and easy way to get song recommendations perfect for the occasion</p>
                 </div>
-                <div>
+                <div class="project-photo">
                     <img class='photo' src="images/Screenshot 2022-12-01 213125.png" alt="A screenshot of InTune showing recommandation based off of location, time of day, and the weather"/>
                 </div>
             </div>
