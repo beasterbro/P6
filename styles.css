@@ -40,6 +40,7 @@ nav.top-nav ul {
 nav.top-nav .pulldown-menu {
     display: none;
     position: absolute;
+    left: 45px;
     /*makes it stop messing with the rest of the UI*/
     border: 1px solid #E3BA1D;
     background-color: #E3BA1D;
