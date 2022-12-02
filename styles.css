@@ -124,6 +124,10 @@ nav.top-nav .pulldown-menu li {
     color: inherit;
     text-decoration: none;
    }
+
+.truss .photo{
+    max-width: 60vw;
+}
   
 /* Palette color codes */
 /* Palette URL: http://paletton.com/#uid=70Q0u0krVsvha-um5u4tKmyzdhE */
