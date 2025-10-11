@@ -11,3 +11,19 @@ function isValidTarget (e){
     //console.log(e.target.srcElement)
     return e.target.children[0].href//e.target.nodeName === "LI" || e.target.className === "project-card" 
 }
+
+function shadeChildren(e){
+    parent = e.srcElement
+    children = parent.childNodes
+    children.forEach(child => {
+        child.className += "-shade"
+    });
+}
+function unshadeChildren(e){
+    parent = e.srcElement
+    children = parent.childNodes
+    children.forEach(child => {
+        child.className = child.className
+    });
+}
+

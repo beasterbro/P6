@@ -208,17 +208,17 @@ a:active {
     text-align: end;
 }
 
-.truss1:hover {
+.truss1-shade {
     border-width: 5px;
     box-shadow: 2px 3px 2px rgba(240, 178, 74, 0.8);
 }
 
-.truss2:hover {
+.truss2-shade {
     border-width: 5px;
     box-shadow: 2px 3px 2px rgba(92, 129, 180, 0.8);
 }
 
-.truss3:hover {
+.truss3-shade {
     border-width: 5px;
     box-shadow: 2px 3px 2px rgba(141, 88, 0, 0.8);
 }
